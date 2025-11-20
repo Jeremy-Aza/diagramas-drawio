@@ -1,0 +1,134 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.1.0">
+  <diagram name="Flowchart" id="H1gn20gSSEOwJuyL_vM0">
+    <mxGraphModel dx="3017" dy="1609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-70" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=0;glass=0;spacingTop=0;spacingLeft=0;fontStyle=1;fontSize=15;" value="Belvo" vertex="1">
+          <mxGeometry height="968" width="330" x="20" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-71" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;fontSize=15;" value="SUMA MEXICO" vertex="1">
+          <mxGeometry height="1578" width="640" x="415" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-72" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#6A00FFB3,#ED6C1DB3);fontColor=light-dark(#000000,#171717);rounded=1;strokeColor=light-dark(#6A00FFB3,#ED4C07B3);spacingLeft=20;spacingRight=20;" value="API SUMA recibe solicitud POST /gov/imss/{ambit} con CURP" vertex="1">
+          <mxGeometry height="102" width="260" x="606" y="1471" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-73" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#6A00FFB3,#ED6C1DB3);fontColor=light-dark(#000000,#171717);rounded=1;strokeColor=light-dark(#6A00FFB3,#ED4C07B3);spacingLeft=20;spacingRight=20;" value="SUMA envía POST /links a Belvo con la CURP" vertex="1">
+          <mxGeometry height="78" width="260" x="606" y="1343" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-74" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#6A00FFB3,#ED6C1DB3);fontColor=light-dark(#000000,#171717);rounded=1;strokeColor=light-dark(#6A00FFB3,#ED4C07B3);spacingLeft=20;spacingRight=20;" value="SUMA almacena link_id con datos del usuario" vertex="1">
+          <mxGeometry height="102" width="260" x="606" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-75" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#6A00FFB3,#ED6C1DB3);fontColor=light-dark(#000000,#171717);rounded=1;strokeColor=light-dark(#6A00FFB3,#ED4C07B3);spacingLeft=20;spacingRight=20;" value="SUMA espera sin realizar más llamadas al Webhook" vertex="1">
+          <mxGeometry height="78" width="260" x="606" y="1037" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-76" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#6A00FFB3,#ED6C1DB3);fontColor=light-dark(#000000,#FFFFFF);rounded=1;strokeColor=light-dark(#6A00FFB3,#ED4C07B3);spacingLeft=20;spacingRight=20;" value="SUMA recibe Webhook EMPLOYMENT_RECORDS" vertex="1">
+          <mxGeometry height="78" width="260" x="605" y="897" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-77" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#6A00FFB3,#ED6C1DB3);fontColor=light-dark(#000000,#171717);rounded=1;strokeColor=light-dark(#6A00FFB3,#ED4C07B3);spacingLeft=20;spacingRight=20;" value="SUMA ejecuta GET /employment-records" vertex="1">
+          <mxGeometry height="102" width="260" x="606" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-78" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#6A00FFB3,#ED6C1DB3);fontColor=light-dark(#000000,#171717);rounded=1;strokeColor=light-dark(#6A00FFB3,#ED4C07B3);spacingLeft=20;spacingRight=20;" value="SUMA guarda historial laboral en su base de datos" vertex="1">
+          <mxGeometry height="78" width="260" x="451" y="197" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-79" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#6A00FFB3,#ED6C1DB3);strokeColor=light-dark(#6A00FFB3,#ED4C07B3);fontColor=#ffffff;rounded=1;spacingLeft=20;spacingRight=20;" value="GET /gov/imss/{ambit}/{linkId} devuelve datos completos" vertex="1">
+          <mxGeometry height="102" width="260" x="606" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-80" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#6A00FFB3,#ED6C1DB3);fontColor=light-dark(#000000,#171717);rounded=1;strokeColor=light-dark(#6A00FFB3,#ED4C07B3);spacingLeft=20;spacingRight=20;" value="Si el webhook no ha llegado: proceso en curso" vertex="1">
+          <mxGeometry height="78" width="260" x="761" y="197" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-81" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;rounded=1;spacingLeft=20;spacingRight=20;" value="Belvo procesa LINK IMSS" vertex="1">
+          <mxGeometry height="54" width="232" x="69" y="1177" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-82" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;spacingLeft=20;spacingRight=20;rounded=1;glass=0;shadow=0;" value="Belvo envía Webhook cuando datos están listos" vertex="1">
+          <mxGeometry height="78" width="260" x="55" y="654" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-83" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;perimeterSpacing=2;rounded=1;spacingLeft=20;spacingRight=20;fontStyle=0" value="Belvo responde GET /employment-records con historial laboral" vertex="1">
+          <mxGeometry height="102" width="260" x="55" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-84" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffcccc;strokeColor=#36393d;" value="Usuario final" vertex="1">
+          <mxGeometry height="54" width="151" x="661" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-86" edge="1" parent="1" source="niNnQTFdN9BvBfUVo-Ei-84" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0.5;entryY=1;rounded=0;entryDx=0;entryDy=0;" target="niNnQTFdN9BvBfUVo-Ei-72" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="736" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-88" edge="1" parent="1" source="niNnQTFdN9BvBfUVo-Ei-72" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0.5;entryY=1;rounded=0;" target="niNnQTFdN9BvBfUVo-Ei-73" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-89" edge="1" parent="1" source="niNnQTFdN9BvBfUVo-Ei-73" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=1;entryY=0.72;rounded=0;" target="niNnQTFdN9BvBfUVo-Ei-81" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="1293" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-90" edge="1" parent="1" source="niNnQTFdN9BvBfUVo-Ei-81" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0;entryY=0.69;rounded=0;" target="niNnQTFdN9BvBfUVo-Ei-74" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="1140" />
+              <mxPoint x="460" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-91" edge="1" parent="1" source="niNnQTFdN9BvBfUVo-Ei-74" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0.5;entryY=1;rounded=0;" target="niNnQTFdN9BvBfUVo-Ei-75" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-92" edge="1" parent="1" source="niNnQTFdN9BvBfUVo-Ei-75" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0.5;entryY=1;rounded=0;labelBackgroundColor=light-dark(#FFFFFF,#FFA32C);fontColor=light-dark(#000000,#171717);spacingLeft=20;spacingRight=20;" target="niNnQTFdN9BvBfUVo-Ei-76" value="Espera asincrónica">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-93" edge="1" parent="1" source="niNnQTFdN9BvBfUVo-Ei-76" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=1;entryY=0.71;rounded=0;" target="niNnQTFdN9BvBfUVo-Ei-82" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="757" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-94" edge="1" parent="1" source="niNnQTFdN9BvBfUVo-Ei-82" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0;entryY=0.69;rounded=0;" target="niNnQTFdN9BvBfUVo-Ei-77" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="629" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-95" edge="1" parent="1" source="niNnQTFdN9BvBfUVo-Ei-77" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=1;entryY=0.69;rounded=0;" target="niNnQTFdN9BvBfUVo-Ei-83" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-96" edge="1" parent="1" source="niNnQTFdN9BvBfUVo-Ei-83" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0.5;entryY=1;rounded=0;" target="niNnQTFdN9BvBfUVo-Ei-78" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="325" />
+              <mxPoint x="535" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-97" edge="1" parent="1" source="niNnQTFdN9BvBfUVo-Ei-78" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0.1;entryY=1;rounded=0;" target="niNnQTFdN9BvBfUVo-Ei-79" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="581" y="172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niNnQTFdN9BvBfUVo-Ei-98" edge="1" parent="1" source="niNnQTFdN9BvBfUVo-Ei-80" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0.9;entryY=1;rounded=0;" target="niNnQTFdN9BvBfUVo-Ei-79" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="891" y="172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
