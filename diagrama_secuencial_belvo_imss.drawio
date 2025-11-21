@@ -1,0 +1,165 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.1.0">
+  <diagram name="Página-1" id="Q_2_FuI0L9zFHWdsm5uV">
+    <mxGraphModel dx="1802" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#d0cee2;strokeColor=#56517e;" value="Usuario" vertex="1">
+          <mxGeometry height="881" width="150" x="11" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#d0cee2;strokeColor=#56517e;" value="Backend SUMA" vertex="1">
+          <mxGeometry height="881" width="150" x="314" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#b1ddf0;strokeColor=#10739e;" value="Belvo" vertex="1">
+          <mxGeometry height="881" width="150" x="667" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-4" edge="1" parent="1" source="-1tx0lXObjrTeSQhmuqa-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;fontColor=default;fillColor=#d0cee2;strokeColor=#56517e;" target="-1tx0lXObjrTeSQhmuqa-2" value="POST /gov/imss/dev con CURP">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="246" y="211" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-5" parent="-1tx0lXObjrTeSQhmuqa-4" style="ellipse;aspect=fixed;fillColor=light-dark(#D0CEE2,#A9C4EB);align=center;strokeColor=none;fontColor=light-dark(#000000,#000000);" value="1" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-159" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-6" edge="1" parent="1" source="-1tx0lXObjrTeSQhmuqa-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;fillColor=#d0cee2;strokeColor=#56517e;" target="-1tx0lXObjrTeSQhmuqa-3" value="POST /links con la CURP">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="574" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-7" parent="-1tx0lXObjrTeSQhmuqa-6" style="ellipse;aspect=fixed;fillColor=light-dark(#D0CEE2,#A9C4EB);align=center;strokeColor=none;fontColor=light-dark(#000000,#000000);" value="2" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-184" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-8" edge="1" parent="1" source="-1tx0lXObjrTeSQhmuqa-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" target="-1tx0lXObjrTeSQhmuqa-2" value="Respuesta Link creado (link_id)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="577" y="319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-9" parent="-1tx0lXObjrTeSQhmuqa-8" style="ellipse;aspect=fixed;fillColor=light-dark(#D0CEE2,#A9C4EB);align=center;strokeColor=none;fontColor=light-dark(#000000,#000000);" value="3" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="170" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-10" edge="1" parent="1" source="-1tx0lXObjrTeSQhmuqa-2" style="curved=1;endArrow=block;rounded=0;labelBackgroundColor=none;fillColor=#d0cee2;strokeColor=#56517e;" target="-1tx0lXObjrTeSQhmuqa-2" value="SUMA almacena link_id con datos del usuario">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="373" />
+              <mxPoint x="440" y="403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-11" parent="-1tx0lXObjrTeSQhmuqa-10" style="ellipse;aspect=fixed;fillColor=light-dark(#D0CEE2,#A9C4EB);align=center;strokeColor=none;fontColor=light-dark(#000000,#000000);" value="4" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-12" edge="1" parent="1" source="-1tx0lXObjrTeSQhmuqa-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;fillColor=#d0cee2;strokeColor=#56517e;" target="-1tx0lXObjrTeSQhmuqa-1" value="Respuesta: link_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="457" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-13" parent="-1tx0lXObjrTeSQhmuqa-12" style="ellipse;aspect=fixed;fillColor=light-dark(#D0CEE2,#A9C4EB);align=center;strokeColor=none;fontColor=light-dark(#000000,#000000);" value="5" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="145" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-14" edge="1" parent="1" source="-1tx0lXObjrTeSQhmuqa-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" target="-1tx0lXObjrTeSQhmuqa-2" value="Webhook EMPLOYMENT_RECORDS listo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="577" y="578" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-15" parent="-1tx0lXObjrTeSQhmuqa-14" style="ellipse;aspect=fixed;fillColor=light-dark(#D0CEE2,#A9C4EB);align=center;strokeColor=none;fontColor=light-dark(#000000,#000000);" value="6" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="170" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-16" edge="1" parent="1" source="-1tx0lXObjrTeSQhmuqa-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;fillColor=#d0cee2;strokeColor=#56517e;" target="-1tx0lXObjrTeSQhmuqa-3" value="GET /employment-records?link=link_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="574" y="632" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-17" parent="-1tx0lXObjrTeSQhmuqa-16" style="ellipse;aspect=fixed;fillColor=light-dark(#D0CEE2,#A9C4EB);align=center;strokeColor=none;fontColor=light-dark(#000000,#000000);" value="7" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-184" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-18" edge="1" parent="1" source="-1tx0lXObjrTeSQhmuqa-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" target="-1tx0lXObjrTeSQhmuqa-2" value="Historial laboral completo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="577" y="686" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-19" parent="-1tx0lXObjrTeSQhmuqa-18" style="ellipse;aspect=fixed;fillColor=light-dark(#D0CEE2,#A9C4EB);align=center;strokeColor=none;fontColor=light-dark(#000000,#000000);" value="8" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="170" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-20" edge="1" parent="1" source="-1tx0lXObjrTeSQhmuqa-2" style="curved=1;endArrow=block;rounded=0;labelBackgroundColor=none;fillColor=#d0cee2;strokeColor=#56517e;" target="-1tx0lXObjrTeSQhmuqa-2" value="Guarda datos en base de datos">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="740" />
+              <mxPoint x="440" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-21" parent="-1tx0lXObjrTeSQhmuqa-20" style="ellipse;aspect=fixed;fillColor=light-dark(#D0CEE2,#A9C4EB);align=center;strokeColor=none;fontColor=light-dark(#000000,#000000);" value="9" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-22" edge="1" parent="1" source="-1tx0lXObjrTeSQhmuqa-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;fillColor=#d0cee2;strokeColor=#56517e;" target="-1tx0lXObjrTeSQhmuqa-2" value="GET /gov/imss/dev/{linkId}">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="246" y="824" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-23" parent="-1tx0lXObjrTeSQhmuqa-22" style="ellipse;aspect=fixed;fillColor=light-dark(#D0CEE2,#A9C4EB);align=center;strokeColor=none;fontColor=light-dark(#000000,#000000);" value="10" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-159" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-24" edge="1" parent="1" source="-1tx0lXObjrTeSQhmuqa-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;fillColor=#d0cee2;strokeColor=#56517e;" target="-1tx0lXObjrTeSQhmuqa-1" value="Datos IMSS completos">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="878" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-25" parent="-1tx0lXObjrTeSQhmuqa-24" style="ellipse;aspect=fixed;fillColor=light-dark(#D0CEE2,#A9C4EB);align=center;strokeColor=none;fontColor=light-dark(#000000,#000000);" value="11" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="145" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-26" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="SUMA no realiza más llamadas&#xa;hasta recibir el webhook" vertex="1">
+          <mxGeometry height="67" width="235" x="272" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-28" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;direction=west;fillColor=#d0cee2;strokeColor=#56517e;" value="Usuario" vertex="1">
+          <mxGeometry height="69" width="150" x="11" y="983" as="geometry" />
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;direction=west;fillColor=#d0cee2;strokeColor=#56517e;" value="Backend SUMA" vertex="1">
+          <mxGeometry height="69" width="150" x="314" y="983" as="geometry" />
+        </mxCell>
+        <mxCell id="-1tx0lXObjrTeSQhmuqa-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;direction=west;fillColor=#b1ddf0;strokeColor=#10739e;" value="Bevlo" vertex="1">
+          <mxGeometry height="69" width="150" x="667" y="983" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
