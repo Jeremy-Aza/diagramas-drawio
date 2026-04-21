@@ -1313,7 +1313,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="aks reestructuracion" id="V3yS86RMpnLx5vxE5OPg">
-    <mxGraphModel dx="6533" dy="4807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3267" dy="2817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="R84s5nc5gMzpWRArlGFP-0" />
         <mxCell id="R84s5nc5gMzpWRArlGFP-1" parent="R84s5nc5gMzpWRArlGFP-0" />
@@ -1504,7 +1504,7 @@
         <mxCell id="R84s5nc5gMzpWRArlGFP-55" parent="R84s5nc5gMzpWRArlGFP-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#FFFFFF,#F4F4F4);fontSize=22;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;" value="&lt;div&gt;&lt;font&gt;IMPLEMENTATION&lt;/font&gt;&lt;/div&gt;&lt;div&gt;id-verifications&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="230" x="3132" y="204" as="geometry" />
         </mxCell>
-        <mxCell id="R84s5nc5gMzpWRArlGFP-56" edge="1" parent="R84s5nc5gMzpWRArlGFP-1" source="R84s5nc5gMzpWRArlGFP-49" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#000000,#0066CC);" target="R84s5nc5gMzpWRArlGFP-92" value="">
+        <mxCell id="R84s5nc5gMzpWRArlGFP-56" edge="1" parent="R84s5nc5gMzpWRArlGFP-1" source="R84s5nc5gMzpWRArlGFP-49" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#000000,#0066CC);startArrow=classic;startFill=1;" target="R84s5nc5gMzpWRArlGFP-92" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2827" y="-140" as="sourcePoint" />
             <mxPoint x="4977" y="640" as="targetPoint" />
@@ -1515,7 +1515,7 @@
             <mxPoint x="-1" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R84s5nc5gMzpWRArlGFP-58" edge="1" parent="R84s5nc5gMzpWRArlGFP-1" source="R84s5nc5gMzpWRArlGFP-52" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=light-dark(#000000,#0066CC);" target="R84s5nc5gMzpWRArlGFP-92" value="">
+        <mxCell id="R84s5nc5gMzpWRArlGFP-58" edge="1" parent="R84s5nc5gMzpWRArlGFP-1" source="R84s5nc5gMzpWRArlGFP-52" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=light-dark(#000000,#0066CC);startArrow=classic;startFill=1;" target="R84s5nc5gMzpWRArlGFP-92" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2817" y="-140" as="sourcePoint" />
             <mxPoint x="3187" y="-122.5" as="targetPoint" />
@@ -1615,7 +1615,7 @@
         <mxCell id="R84s5nc5gMzpWRArlGFP-86" parent="R84s5nc5gMzpWRArlGFP-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#FFFFFF,#F4F4F4);fontSize=22;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;" value="&lt;div&gt;IMPLEMENTATION&lt;/div&gt;&lt;div&gt;api-sign&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="230" x="3131.5" y="1194" as="geometry" />
         </mxCell>
-        <mxCell id="R84s5nc5gMzpWRArlGFP-87" edge="1" parent="R84s5nc5gMzpWRArlGFP-1" source="R84s5nc5gMzpWRArlGFP-80" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.568;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#000000,#CC6600);" target="R84s5nc5gMzpWRArlGFP-92" value="">
+        <mxCell id="R84s5nc5gMzpWRArlGFP-87" edge="1" parent="R84s5nc5gMzpWRArlGFP-1" source="R84s5nc5gMzpWRArlGFP-80" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.568;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#000000,#CC6600);startArrow=classic;startFill=1;" target="R84s5nc5gMzpWRArlGFP-92" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2827" y="830" as="sourcePoint" />
             <mxPoint x="3340" y="742.5" as="targetPoint" />
@@ -1626,7 +1626,7 @@
             <mxPoint x="-1" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R84s5nc5gMzpWRArlGFP-89" edge="1" parent="R84s5nc5gMzpWRArlGFP-1" source="R84s5nc5gMzpWRArlGFP-83" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.644;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#000000,#CC6600);" target="R84s5nc5gMzpWRArlGFP-92" value="">
+        <mxCell id="R84s5nc5gMzpWRArlGFP-89" edge="1" parent="R84s5nc5gMzpWRArlGFP-1" source="R84s5nc5gMzpWRArlGFP-83" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.644;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#000000,#CC6600);startArrow=classic;startFill=1;" target="R84s5nc5gMzpWRArlGFP-92" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2817" y="830" as="sourcePoint" />
             <mxPoint x="3340" y="847.5" as="targetPoint" />
@@ -1741,7 +1741,7 @@
         <mxCell id="R84s5nc5gMzpWRArlGFP-125" parent="R84s5nc5gMzpWRArlGFP-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#FFFFFF,#F4F4F4);fontSize=22;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;" value="&lt;div&gt;API MANAGEMENT&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="230" x="4480" y="788" as="geometry" />
         </mxCell>
-        <mxCell id="R84s5nc5gMzpWRArlGFP-126" edge="1" parent="R84s5nc5gMzpWRArlGFP-1" source="R84s5nc5gMzpWRArlGFP-117" style="endArrow=classic;html=1;rounded=0;entryX=-0.015;entryY=0.818;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#000000,#990099);" target="R84s5nc5gMzpWRArlGFP-92" value="">
+        <mxCell id="R84s5nc5gMzpWRArlGFP-126" edge="1" parent="R84s5nc5gMzpWRArlGFP-1" source="R84s5nc5gMzpWRArlGFP-117" style="endArrow=classic;html=1;rounded=0;entryX=-0.015;entryY=0.818;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#000000,#990099);startArrow=classic;startFill=1;" target="R84s5nc5gMzpWRArlGFP-92" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2827" y="2010" as="sourcePoint" />
             <mxPoint x="2867" y="1960" as="targetPoint" />
@@ -1752,7 +1752,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R84s5nc5gMzpWRArlGFP-128" edge="1" parent="R84s5nc5gMzpWRArlGFP-1" source="R84s5nc5gMzpWRArlGFP-120" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.909;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#000000,#990099);" target="R84s5nc5gMzpWRArlGFP-92" value="">
+        <mxCell id="R84s5nc5gMzpWRArlGFP-128" edge="1" parent="R84s5nc5gMzpWRArlGFP-1" source="R84s5nc5gMzpWRArlGFP-120" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.909;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#000000,#990099);startArrow=classic;startFill=1;" target="R84s5nc5gMzpWRArlGFP-92" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2817" y="2010" as="sourcePoint" />
             <mxPoint x="2867" y="1960" as="targetPoint" />
